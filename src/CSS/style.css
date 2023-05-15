@@ -3,12 +3,13 @@ body{
     font-family: var(--font-principal);
     max-width: 1280px;
     margin: 0 auto;
-    background-color: #5e5b5bad;
+    background: url(https://taoanhonline.com/wp-content/uploads/2019/08/hinh-anh-pokemon-116-1.jpg) no-repeat center fixed;
+    background-size: 100%;
     color: #333333;
 }
 
 .modo-escuro{
-    background-color: #121212;
+    background: url(https://c.wallhere.com/photos/c3/b3/2944x1949_px_Pok_Balls-544260.jpg!d) no-repeat center fixed;
     color: #f5f5f5;
 }
 
@@ -22,7 +23,7 @@ header{
 
 header .imagem-botao,
 header .logo{
-    width: 30px;
+    width: 50px;
     transition: 0.2s ease-in-out;
 }
 
@@ -34,7 +35,7 @@ header #botao-alterar-tema{
 header .imagem-botao:hover,
 header .logo:hover,
 main .cartao-pokemon:hover{
-    transform: scale(1.08);
+    transform: scale(1.05);
     cursor: pointer;
 }
 
@@ -51,7 +52,7 @@ main .listagem-pokemon{
 }
 
 main .cartao-pokemon{
-  background-color: #d8e3ec;  
+  background-color: #ffffff86;  
   width: 200px;
   padding: 15px;
   display: flex;
@@ -63,17 +64,24 @@ main .cartao-pokemon{
 }
 
 main .cartao-pokemon:hover{
-    background-color: #96d9d6;
+    background: #8fe7ff;
 }
 
+.modo-escuro .cartao-pokemon:hover{
+    background: black;
+}
 .modo-escuro .cartao-pokemon{
-    background-color: #a8a8a8;
+    background: rgba(0, 0, 0, 0.76);
+}
+
+.modo-escuro .cartao-pokemon .informacoes{
+    border: white 2px solid;
 }
 
 main .cartao-pokemon .informacoes{
     display: flex;
     justify-content: space-between;
-    border: 1px solid #333333;
+    border: 2px solid #333333;
     border-radius: 10px;
 } 
 
