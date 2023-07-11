@@ -3,13 +3,12 @@ body{
     font-family: var(--font-principal);
     max-width: 1280px;
     margin: 0 auto;
-    background: url(https://taoanhonline.com/wp-content/uploads/2019/08/hinh-anh-pokemon-116-1.jpg) no-repeat center fixed;
-    background-size: 100%;
+    background: url(https://www.reportersul.com.br/uploads/images/2020/07/mais-um-dia-de-sol-e-temperatura-elevada-em-sc-1595502961.jpg
     color: #333333;
 }
 
 .modo-escuro{
-    background: url(https://c.wallhere.com/photos/c3/b3/2944x1949_px_Pok_Balls-544260.jpg!d) no-repeat center fixed;
+    background: url(https://img.freepik.com/vetores-gratis/noite-na-floresta_1308-69877.jpg) no-repeat center fixed;
     color: #f5f5f5;
 }
 
